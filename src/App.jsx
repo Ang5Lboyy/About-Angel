@@ -197,7 +197,7 @@ function App() {
             <p className="contact-intro">I am currently looking for a job or internship as an external interface programmer where I can apply my knowledge, gain real-world experience, and create value for the team. I am open to cooperation and interesting projects.</p>
             
             <div className="social-links">
-              <a href="https://t.me/Ang5lboy" target="_blank" rel="noreferrer" className="social-btn telegram" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+              <a href="https://t.me/Ang5Lboyy" target="_blank" rel="noreferrer" className="social-btn telegram" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                 <i className="fab fa-telegram-plane"></i>
                 <span>@Ang5Lboyy</span>
               </a>
