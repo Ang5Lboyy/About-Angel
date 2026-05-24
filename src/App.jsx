@@ -199,7 +199,7 @@ function App() {
             <div className="social-links">
               <a href="https://t.me/Ang5lboy" target="_blank" rel="noreferrer" className="social-btn telegram" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                 <i className="fab fa-telegram-plane"></i>
-                <span>@Ang5lboy</span>
+                <span>@Ang5Lboyy</span>
               </a>
               <a href="mailto:angelbarseghyan12@gmail.com" className="social-btn email" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                 <i className="fas fa-envelope"></i>
