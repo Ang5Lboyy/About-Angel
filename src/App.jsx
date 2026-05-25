@@ -126,9 +126,25 @@ function App() {
           <h2 className="section-title">My <span className="gradient-text">Journey</span></h2>
           <div className="about-grid">
             <div className="about-text glass-panel">
-              <p>I am a junior frontend programmer with almost <strong>4 years of training and practice experience</strong> in the field of web programming. I am fluent in HTML, CSS, and JavaScript technologies, as well as working with modern libraries and tools such as <strong>React.js</strong> and <strong>Node.js</strong>.</p>
-              <p>I have experience creating interactive and responsive (adaptive) websites using Flexbox, CSS Grid, and modern user interface approaches. I am creating dynamic interfaces with component structure using React.js and Node.js to understand the basics of the backend and create simple server solutions.</p>
-              <p>I study at the <strong>Tumo Center for Creative Technologies</strong>, where I develop not only technical, but also creative thinking.</p>
+              <p>I am a Junior Frontend Developer with around <strong> 4 years</strong> of experience in web development. I specialize in 
+             <strong> HTML, CSS, JavaScript, React.js, Node.js, and PHP</strong>. I have experience building various web projects and also working with and developing 
+            <strong> PHP projects</strong>.</p>
+              <p>I create modern, responsive, and user-friendly websites using 
+               <strong> Flexbox, CSS Grid, and React.js</strong>. I have strong knowledge of 
+              <strong> JavaScript fundamentals</strong>, working with 
+             <strong> APIs</strong>, and 
+            <strong> writing clean, organized, and maintainable code</strong>.</p>
+              <p>I am also highly skilled with 
+               <strong> AI tools</strong> and actively use them 
+              <strong> for code generation, debugging, optimization, and learning new technologies faster and more efficiently</strong>.</p>
+              <p>I study at 
+               <strong> TUMO Center for Creative Technologies</strong> and continuously 
+              <strong> improve my programming and problem-solving skills</strong>.</p>
+              <p>Currently, 
+               <strong> I am looking for a remote Frontend Developer job</strong> or 
+              <strong> internship</strong> where I can work on 
+             <strong> real projects</strong>, gain 
+            <strong> professional experience</strong>, and continue <strong> growing as a developer</strong>.</p>
             </div>
             <div className="about-highlights">
               <div className="highlight-card" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
@@ -137,7 +153,7 @@ function App() {
               </div>
               <div className="highlight-card" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                 <h3><i className="fas fa-server"></i> Backend Basics</h3>
-                <p>Utilizing Node.js for simple server solutions and full-stack understanding.</p>
+                <p>Utilizing Node.js and PHP for simple server solutions and full-stack understanding.</p>
               </div>
             </div>
           </div>
@@ -160,8 +176,8 @@ function App() {
             </div>
             
             <div className="tech-grid">
-              {['HTML5', 'CSS3', 'JavaScript', 'React.js', 'Node.js', 'CSS Grid', 'Flexbox', 'APIs'].map((tech, index) => {
-                const icons = ['html5', 'css3-alt', 'js', 'react', 'node-js', 'border-all', 'columns', 'network-wired'];
+              {['HTML5', 'CSS3', 'JavaScript', 'React.js', 'Node.js', 'CSS Grid', 'PHP', 'APIs'].map((tech, index) => {
+                const icons = ['html5', 'css3-alt', 'js', 'react', 'node-js', 'border-all', 'php', 'network-wired'];
                 return (
                   <div key={index} className="tech-item" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                     <i className={`fa${index < 5 ? 'b' : 's'} fa-${icons[index]}`}></i> {tech}
