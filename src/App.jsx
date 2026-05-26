@@ -126,7 +126,7 @@ function App() {
           <h2 className="section-title">My <span className="gradient-text">Journey</span></h2>
           <div className="about-grid">
             <div className="about-text glass-panel">
-              <p>I am a Junior Frontend Developer with around <strong> 4 years</strong> of experience in web development. I specialize in 
+              <p>I am a Senior Frontend Developer with around <strong> 4 years</strong> of experience in web development. I specialize in 
              <strong> HTML, CSS, JavaScript, React.js, Node.js, and PHP</strong>. I have experience building various web projects and also working with and developing 
             <strong> PHP projects</strong>.</p>
               <p>I create modern, responsive, and user-friendly websites using 
